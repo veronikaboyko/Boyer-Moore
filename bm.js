@@ -41,7 +41,6 @@ for (let i = 0; i <= m; i++) {
 
 let result = new Array();
 let i = 0;
-let j = 0;
 while (i <= n - m) {
     for (j = m - 1; j >= 0 && T[j] == S[i + j]; j--);
         if (j < 0) {
